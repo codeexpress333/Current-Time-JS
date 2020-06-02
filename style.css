@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #181818;
+    margin: 150px 0;
+    text-align: center;
+    font-family: cursive;
+}
+
+.banner {
+    font-size: 70px;
+    text-transform: uppercase;
+    background: #d7d7d7;
+    color: #fff;
+    height: 100px;
+    width: 60%;
+    margin: 0 auto;
+    border-bottom: 10px solid #555;
+}
+
+.banner span {
+    color: #555;
+}
+
+#clock {
+    background: #000;
+    font-size: 100px;
+    color: #fff;
+    height: 150px;
+    width: 60%;
+    margin: 0 auto;
+    border-bottom: 10px solid #333;
+}
+
+
+@media (max-width: 980px) {
+    .banner {
+        font-size: 30px;
+        line-height: 100px;
+    }
+    #clock {
+        font-size: 50px;
+        line-height: 150px;
+    }
+}
+
